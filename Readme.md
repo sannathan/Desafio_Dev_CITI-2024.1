@@ -9,7 +9,7 @@
 <p>- CSS3</p>
 
 <h2>Estrutura de Arquivos</h2>
-<p>.codesandbox <br>.devcontainer <br>.vscode <br>Assets<br>.eslintrc.json<br>Readme.md<br>index.html<br>package.json<br>pnpm-lock.yaml<br>styles.css<br>yarn.lock</p>
+<p>- Index.html <br>- Style.css</p>
 
 <h2>Funcionalidades</h2>
 <p>- Apresenta uma breve introdução sobre mim.<br>
