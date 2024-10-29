@@ -9,6 +9,7 @@ body {
   background: #040b04;
   color: #50c44c;
   font-family: 'Mooli', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 html {
@@ -40,9 +41,11 @@ nav {
   background: #121415;
   margin-bottom: 20px;
 }
+
 .ronnie-gif {
   width: 10%;
 }
+
 .logo {
   font-family: 'Teko', sans-serif;
   font-size: 2rem;
@@ -62,6 +65,12 @@ nav {
   font-weight: 600;
 }
 
+#change-theme {
+  font-family: 'Mooli', sans-serif;
+  color: #8cd8d9;
+  background: #121415;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -69,6 +78,10 @@ main {
 
 .principal {
   background: #040b04;
+}
+
+.principal.light-theme {
+  background: #267173;
 }
 .text-container {
   max-width: 1120px;
@@ -123,6 +136,10 @@ hr {
   font-family: Inter;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.text-container-subtitulo.light-theme {
+  color: #040b04;
 }
 
 .image-container {
